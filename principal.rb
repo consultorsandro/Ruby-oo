@@ -6,8 +6,8 @@ require "awesome_print"
 
 puts "Executando o código"
 
-bostaDeCurso = Pessoa("Bosta")
-carro = Carro.new(Variante, Bosta)
+foo = Pessoa.new("Bosta")
+carro = Carro.new("Variante", "Bosta")
 
-awesome_print bostaDeCurso
-awesome_print carro
+ap foo
+ap carro
